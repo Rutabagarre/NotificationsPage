@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Plus+Jakarta+Sans:wght@200&family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./responsive.css">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+  <main>
+    <section id="title">
+      <div id="title-left">
+        <h1>Notifications</h1><p>3</p>
+      </div>
+      <div id="title-right" class="hover-text">
+        <p>Mark all as read</p>
+      </div>
+    </section>
+    <section id="unread-notifications">
+      <article>
+        <img src="./assets/images/avatar-mark-webber.webp">
+        <div class="notif-content"><div class="notif-text"><p class="name-profile">Mark Webber</p><p class="classic-text">reacted to your recent post</p><p class="hover-text">My first tournament today!</p><div class="red-circle"></div></div><div class="time">1m ago</div></div>
+      </article>
+
+      <article>
+        <img src="./assets/images/avatar-angela-gray.webp">
+        <div class="notif-content"><div class="notif-text"><p class="name-profile">Angela Gray</p><p class="classic-text">followed you</p><div class="red-circle"></div></div><div class="time">5m ago</div></div>
+      </article>
+
+      <article>
+        <img src="./assets/images/avatar-jacob-thompson.webp">
+        <div class="notif-content"><div class="notif-text"><p class="name-profile">Jacob Thompson</p><p class="classic-text">has joined your group</p><p class="hover-text">Chess Club</p><div class="red-circle"></div></div><div class="time">1 day ago</div></div>
+      </article>
+
+    </section>
+    <section id="read-notifications">
+      <article id="private-message">
+        <img src="./assets/images/avatar-rizky-hasanuddin.webp">
+        <div class="notif-content"><div class="notif-text"><p class="name-profile">Rizky Hasanuddin</p><p class="classic-text">sent you a private message</p></div><div class="time">5 days ago</div></div>
+        
+
+        <div class="private-message-overlay">
+          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+        </div>
+      </article>
+
+      <article>
+        <img src="./assets/images/avatar-kimberly-smith.webp">
+        <div class="notif-content"><div class="notif-text"><p class="name-profile">Kimberly Smith</p><p class="classic-text">commented on your picture</p></div><div class="time">1 week ago</div></div>
+      </article>
+
+      <article>
+        <img src="./assets/images/avatar-nathan-peterson.webp">
+        <div class="notif-content"><div class="notif-text"><p class="name-profile">Nathan Peterson</p><p class="classic-text">reacted to your recent post</p><p class="hover-text">5 end-game strategies to increase your win rate</p></div><div class="time">2 weeks ago</div></div>
+      </article>
+
+      <article>
+        <img src="./assets/images/avatar-anna-kim.webp">
+        <div class="notif-content"><div class="notif-text"><p class="name-profile">Anna Kim</p><p class="classic-text">left the group</p><p class="hover-text">Chess Club</p></div><div class="time">2 weeks ago</div></div>
+      </article>
+    </section>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
